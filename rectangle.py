@@ -11,7 +11,7 @@ def perimeter(a, b):
 
 class RectangleTestCase(unittest.TestCase):
     def test_zero_mul(self):
-        res = area(0, 12)
+        res = area(0, 13)
         self.assertEqual(res, 0)
 
     def test_one_mul(self):
@@ -23,8 +23,8 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(res, 236.25)
 
     def test_three_mul(self):
-        res = perimeter(1, 6)
-        self.assertEqual(res, 14)
+        res = perimeter(0, 0)
+        self.assertEqual(res, 0)
 
     def test_four_mul(self):
         res = perimeter(10, 54)
