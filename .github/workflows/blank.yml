@@ -41,8 +41,8 @@ jobs:
 
       - name: Run circle tests
         run: |
-          python TriangleTests.py
+          python CircleTests.py
 
       - name: Run rectangle tests
         run: |
-          python TriangleTests.py
+          python RectangleTests.py
